@@ -2,8 +2,22 @@
 	background-color: #F3CA40;
 }*/
 
+.header {
+	margin-top: 3vw;
+}
+
 img {
 	width: 100%;
+}
+
+@media (min-width: 600px) {
+#beer {
+	margin-top: 2vw;
+}
+}
+
+#berkeley {
+	margin-top: 0px;
 }
 
 .nav {
@@ -16,6 +30,10 @@ img {
 
 .nav li a {
 	color: white;
+}
+
+.address, .call {
+	font-family: 'Pathway Gothic One', sans-serif;	
 }
 
 .row ul {
@@ -55,6 +73,11 @@ div.row.nav {
 div.menu-item-title {
 	font-size: large;
 	font-weight: bold;
+}
+
+.sauce {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*.menu-items {

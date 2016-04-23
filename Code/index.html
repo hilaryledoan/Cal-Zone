@@ -23,8 +23,8 @@
           <h4>11am - 9pm</h4>
           <h3>Location Map</h3>
         </div>
-        <div class="col-md-6">
-          <img src="img/logo.png" alt="Berkeley Pizza">
+        <div class="col-md-6 logo">
+          <img id="logo" src="img/logo.png" alt="Berkeley Pizza">
         </div>
         <div class="col-md-3 call">
           <h3>Call Us</h3>
@@ -47,10 +47,11 @@
 
       <div class="row">
         <div class="col-md-9">
-              <img src="img/pizza.jpeg" alt="Best Pizza in Berkeley">
+              <img id="pizza" src="img/pizza.jpeg" alt="Best Pizza in Berkeley">
         </div>
         <div class="col-md-3">
-          <img src="img/bar_fun.jpg" alt="Trivia Night">
+          <div id="dark-overlay"></div>
+          <img id="bar_fun" src="img/bar_fun.jpg" alt="Trivia Night">
           <img id="beer" src="../img/beer.jpg" alt="Sports and Beer">
         </div>
       </div>
@@ -387,14 +388,27 @@
         </div>
       </div>
 
-      <div class="sauce">
-        <h4>Sauce Options:
-        </h4>
-        <h4>House Tomato</h4>
-        <h4>Ranch Dressing</h4>
-        <h4>House BBQ</h4>
-        <h4>Pesto</h4>
-        <h4>Hummus</h4>
+                    <div class="sauce">
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-title">Sauce Options:</div>
+                      </div>   
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-description">House Tomato</div>
+                      </div>                        
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-description">Ranch Dressing</div>
+                      </div>  
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-description">House BBQ</div>
+                      </div> 
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-description">Pesto</div>
+                      </div> 
+                      <div class="col-md-2 menu-item">
+                        <div class="menu-item-description">Hummus</div>
+                      </div>   
+                    </div>                   
+
       </div>
       <img src="../img/pizza.jpeg" alt="Special Combo Pizza">
       <div class="row">

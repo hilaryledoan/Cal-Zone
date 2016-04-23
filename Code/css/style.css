@@ -10,9 +10,42 @@ img {
 	width: 100%;
 }
 
+#logo {
+	width: 69%;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+#bar_fun {
+	background:rgba(47, 39, 39, .60);
+}
+
+#dark-overlay {
+	position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.6;
+}
+
+button.btn.btn-default {
+	color: #F3CA40;
+	background-color: #000072;	
+}
+
 @media (min-width: 600px) {
 #beer {
 	margin-top: 2vw;
+}
+
+.sauce {
+    display: flex;
+    align-items: center;
 }
 }
 
@@ -34,6 +67,10 @@ img {
 
 .address, .call {
 	font-family: 'Pathway Gothic One', sans-serif;	
+}
+
+.call {
+	text-align: center;
 }
 
 .row ul {
@@ -73,11 +110,6 @@ div.row.nav {
 div.menu-item-title {
 	font-size: large;
 	font-weight: bold;
-}
-
-.sauce {
-    display: flex;
-    justify-content: space-around;
 }
 
 /*.menu-items {

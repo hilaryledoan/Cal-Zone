@@ -11,6 +11,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   </head>
 
@@ -36,7 +37,7 @@
       </div>
 
         <div class="row nav">
-            <ul class="nav nav-pills pull-right">
+            <ul class="nav nav-pills pull-right hidden-phone">
               <li><a href="#">ABOUT US</a></li>
               <li><a href="#">MENU</a></li>
               <li><a href="#">BEST PIZZA</a></li>
@@ -47,12 +48,14 @@
 
       <div class="row">
         <div class="col-md-9">
-              <img id="pizza" src="img/pizza.jpeg" alt="Best Pizza in Berkeley">
+          <a href="">
+              <img id="pizza" src="img/pizza.jpeg" alt="Best Pizza in Berkeley"></a>
         </div>
-        <div class="col-md-3">
-          <div id="dark-overlay"></div>
-          <img id="bar_fun" src="img/bar_fun.jpg" alt="Trivia Night">
-          <img id="beer" src="../img/beer.jpg" alt="Sports and Beer">
+        <div class="col-md-3 triviabeer">
+          <a href="">
+          <img id="bar_fun" src="img/trivia.jpg" alt="Trivia Night"></a>
+          <a href="">
+          <img id="beer2" src="img/beer2.jpg" alt="Sports and Beer"></a>
         </div>
       </div>
 <!-- APPETIZERS -->
@@ -60,7 +63,7 @@
         <div class="menu-section">
           <div class="menu-section-header">
             <div class="menu-section-title">Appetizers
-            </div>
+            </div>         
             <div class="menu-items">
               <div class="col-md-4 menu-item">
                 <span class="menu-item-price-top">
@@ -95,7 +98,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row menu">
         <div class="col-md-4">
               <div class="menu-item">
                 <span class="menu-item-price-top">
@@ -131,6 +134,7 @@
               </div>
         </div>
       </div>
+<div class="menu">
       <div class="menu-items">
               <div class="col-md-4 menu-item">
                 <div class="menu-item-title">Turkey Sandwich</div>
@@ -152,9 +156,10 @@
                 <div class="menu-item-title">Vegitarian Sandwich</div>
                 <div class="menu-item-description">Spinach, Freshly Sliced Tomatoes, Artichokes and Olives</div>
               </div>                                          
-      </div>
+      </div> 
+ </div>        
 <br>
-      <img src="../img/cheesewings.jpg" alt="Cheese Twists & Wings">
+      <img id="cheesewings" src="../img/cheesewings.jpg" alt="Cheese Twists & Wings">
 
 <!-- BUILD YOUR OWN PIZZA -->
 
@@ -406,11 +411,10 @@
                       </div> 
                       <div class="col-md-2 menu-item">
                         <div class="menu-item-description">Hummus</div>
-                      </div>   
+                      </div>
                     </div>                   
-
+                    <div class="col-md-12"><img src="../img/pizza.jpeg" alt="Special Combo Pizza"></div>
       </div>
-      <img src="../img/pizza.jpeg" alt="Special Combo Pizza">
       <div class="row">
 
     </div>

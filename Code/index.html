@@ -17,13 +17,14 @@
   </head>
 
   <body>
+
     <div class="container header">
       <div class="row row-header">
         <div class="col-md-3 address hidden-xs">
           <h3>2017 University</h3>
           <h3 id="berkeley">Ave Berkeley, CA 94704</h3>
           <a href="http://maps.google.com/maps?daddr=2017+University+Ave,+Berkeley,+CA+94704" target="_blank">
-          <button class="btn btn-default" type="submit">Open Map</button><a>
+            <button class="btn btn-default" type="submit">Open Map</button><a>
         </div>
         <div class="col-md-6 logo"><a href="index.html">
           <img id="logo" src="img/logo.png" alt="Berkeley Pizza"></a>
@@ -31,7 +32,11 @@
         <div class="col-md-3 call">
           <h3>Call Us: (510) 845-6666</h3>
           <h4>Open: 11am - 9pm</h4>
-          <button class="btn btn-default" type="submit">ORDER NOW</button>
+          <div class="chownow">
+<!--           <a class="chownow-order-online"> -->
+            <button class="btn btn-default" type="submit"><a class="chownow-order-online" id="chownow">ORDER NOW</button>
+<!--           <a> -->
+          </div>
         </div>
         <div>
         </div>
@@ -50,7 +55,7 @@
       <div class="row">
         <div class="col-md-9">
           <a href="#vegan">
-              <img id="pizza" src="img/pizza.jpeg" alt="Best Pizza in Berkeley"></a>
+              <img id="pizza" src="img/pizza.jpg" alt="Best Pizza in Berkeley"></a>
         </div>
         <div class="col-md-3 triviabeer">
           <a href="html/trivia.html">
@@ -161,7 +166,7 @@
               </div>                                          
       </div> 
  </div>       
-      <img id="cheesewings" src="img/cheesewings.jpg" alt="Cheese Twists & Wings">
+      <img id="cheesewings" src="img/chickensandwich.jpg" alt="Cheese Twists & Wings">
 
 
 <br>
@@ -299,7 +304,7 @@ Gluten-free pasta is now available.</p>
         </table>
         </div>
       </div>
-      <img src="img/topping.jpg" alt="Build Your Own Pizza">
+      <img src="img/veggiegluten.jpg" alt="Build Your Own Pizza">
 
 <!-- SPECIALTY COMBINATIONS -->
 
@@ -317,7 +322,7 @@ Gluten-free pasta is now available.</p>
                         <div class="menu-item-description">House Tomato Sauce, Cheese, Salami, Pepperoni, Beef, Linguica (spicy sausage), Mushroom, Olive, Green Pepper and Red Onion</div>
                       </div>
                       <div class="col-md-4 menu-item">
-                        <div class="menu-item-title">Meet Lovers</div>
+                        <div class="menu-item-title">Meat Lovers</div>
                         <div class="menu-item-description">House Tomato Sauce, Cheese, Salami, Pepperoni, Beef, Sausage and Your Choice of Linguica or Bacon</div>
                       </div>
                       <div class="col-md-4 menu-item">
@@ -424,7 +429,7 @@ Gluten-free pasta is now available.</p>
                         <div class="menu-item-description">Hummus</div>
                       </div>
                     </div>                   
-                    <div class="col-md-12"><img src="img/pizza.jpeg" alt="Special Combo Pizza"></div>
+                    <div class="col-md-12"><img class="img-responsive" src="img/specialty.jpg" alt="Special Combo Pizza"></div>
 
           <div class="col-md-3 address hidden-lg hidden-md">
             <h3>2017 University</h3>
@@ -438,12 +443,6 @@ Gluten-free pasta is now available.</p>
     </div>
 
     </div>
-
-    <!-- ChowNowtar -->
-    <script>
-        // Inline models loaded with the template
-        var inlineModel = {"customer": null, "company": {"delivery_only": false, "name": "Red Tomato Pizza House", "ios_app_store_id": "980364906", "locations": [{"order_ahead": {"max_lead_time": null, "min_lead_time": 45, "precision": null}, "force_managed_delivery": false, "name": "Red Tomato Pizza House", "google_place_actions_data": {"geo": {"latitude": 37.8722801000, "@type": "GeoCoordinates", "longitude": -122.2702255000}, "potentialAction": {"deliveryMethod": ["http://purl.org/goodrelations/v1#DeliveryModePickUp", "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"], "@type": "OrderAction", "target": ["https://ordering.chownow.com/order/2083/locations/5715"]}, "name": "Red Tomato Pizza House", "address": {"addressCountry": "US", "addressLocality": "Berkeley", "addressRegion": "CA", "streetAddress": "2017 University Ave", "postalCode": "94704", "@type": "PostalAddress"}, "@context": "http://schema.org", "@id": "https://ordering.chownow.com/order/2083/locations/5715", "@type": "Restaurant", "telephone": "15108456666"}, "is_post_pay": false, "tax_type": null, "fees": {"forced_gratuity": {"charge_type": "percent", "min_order": null, "amount": null}, "service": {"charge_type": null, "min_order": null, "amount": null}}, "company_id": "2083", "closures": [], "delivery_only_maps": [], "phone": "5108456666", "large_order": {"min_lead_time": 30, "amount": 50.00}, "tax_rate": 9.000, "payment_processor_id": "3", "address": {"formatted_address": "2017 University Ave, Berkeley CA 94704", "is_google_place": false, "country_alpha2": "US", "address_string": "2017 University Ave\nBerkeley CA 94704", "street_address1": "2017 University Ave", "geo": "37.8722801,-122.2702255", "id": 1083517, "place_formatted_address": "2017 University Ave, Berkeley, CA 94704", "city": "Berkeley", "name": null, "zip": "94704", "country": "USA", "street_address2": "", "longitude": -122.2702255, "state": "CA", "latitude": 37.8722801}, "display_properties": {"menu_disclaimer": null, "enable_special_instructions": true, "special_instructions_text": null}, "id": "5715", "has_promo_code": false, "fulfillment": {"delivery": {"order_ahead": {"max_lead_time": null, "min_lead_time": 45, "precision": null}, "display_hours": [{"day_id": 1, "ranges": [{"to": "20:30", "from": "11:00", "label": null}], "dow": "Sunday"}, {"day_id": 2, "ranges": [{"to": "20:30", "from": "11:00", "label": null}], "dow": "Monday"}, {"day_id": 3, "ranges": [{"to": "20:30", "from": "11:00", "label": null}], "dow": "Tuesday"}, {"day_id": 4, "ranges": [{"to": "20:30", "from": "11:00", "label": null}], "dow": "Wednesday"}, {"day_id": 5, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Thursday"}, {"day_id": 6, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Friday"}, {"day_id": 7, "ranges": [{"to": "20:30", "from": "11:00", "label": null}], "dow": "Saturday"}], "customizations": null, "tip": {"default_rate": null, "suggested_rates": [], "allows_tip": true}, "delivery_ranges": [{"max_order_amt": null, "delivery_charge_type": "amount", "delivery_charge": null, "min_order_amt": 15.00}], "hours": [{"date": "2016-05-04", "ranges": [{"to": "20:30", "from": "11:00", "label": null}]}, {"date": "2016-05-05", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-06", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-07", "ranges": [{"to": "20:30", "from": "11:00", "label": null}]}, {"date": "2016-05-08", "ranges": [{"to": "20:30", "from": "11:00", "label": null}]}, {"date": "2016-05-09", "ranges": [{"to": "20:30", "from": "11:00", "label": null}]}, {"date": "2016-05-10", "ranges": [{"to": "20:30", "from": "11:00", "label": null}]}], "managed_delivery_id": null}, "pickup": {"order_ahead": {"max_lead_time": null, "min_lead_time": 45, "precision": null}, "display_hours": [{"day_id": 1, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Sunday"}, {"day_id": 2, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Monday"}, {"day_id": 3, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Tuesday"}, {"day_id": 4, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Wednesday"}, {"day_id": 5, "ranges": [{"to": "21:00", "from": "11:00", "label": null}], "dow": "Thursday"}, {"day_id": 6, "ranges": [{"to": "21:30", "from": "11:00", "label": null}], "dow": "Friday"}, {"day_id": 7, "ranges": [{"to": "21:30", "from": "11:00", "label": null}], "dow": "Saturday"}], "customizations": null, "tip": {"default_rate": null, "suggested_rates": [], "allows_tip": true}, "hours": [{"date": "2016-05-04", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-05", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-06", "ranges": [{"to": "21:30", "from": "11:00", "label": null}]}, {"date": "2016-05-07", "ranges": [{"to": "21:30", "from": "11:00", "label": null}]}, {"date": "2016-05-08", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-09", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}, {"date": "2016-05-10", "ranges": [{"to": "21:00", "from": "11:00", "label": null}]}], "min_order_amt": null, "max_order_amt": null}}}], "phone": "5108456666", "address": {"formatted_address": "2017 University Ave, Berkeley CA 94704", "is_google_place": false, "country_alpha2": "US", "address_string": "2017 University Ave\nBerkeley CA 94704", "street_address1": "2017 University Ave", "geo": "37.8722801,-122.2702255", "id": 1083517, "place_formatted_address": "2017 University Ave, Berkeley, CA 94704", "city": "Berkeley", "name": null, "zip": "94704", "country": "USA", "street_address2": "", "longitude": -122.2702255, "state": "CA", "latitude": 37.8722801}, "id": "2083"}, "settings": {"APP_URL": "https://facebook.chownow.com/", "GOOGLE_WEB_CLIENT_ID": "712158363893-nvrb82td9utupq0lv5ineo2ma2gjad8o.apps.googleusercontent.com", "ADMIN_APP_URL": "https://admin.chownow.com/", "LOGGLY_KEY": "cf3bb5f9-fc83-4bc8-b915-95b6571b2119", "CMS_URL": "https://www.chownow.com/", "CUSTOMER_SUPPORT_EMAIL": "support@chownow.com", "FACEBOOK_APP_URL": "https://apps.facebook.com/chownow-app/", "STATIC_URL": "https://cf.chownowcdn.com/62fd4c4f9043dba9f4f696cbadf34e48", "ONBOARDING_URL": "https://welcome.chownow.com/", "CN_SUPPORT_PHONE": "8887072469", "FACEBOOK_API_VERSION": "2.3", "FACEBOOK_APP_ID": "259200470778795", "DEBUG": false}, "restaurant": null};
-      </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -487,6 +486,10 @@ Gluten-free pasta is now available.</p>
      });
 
 });</script>
+
+
+    <!-- ChowNowtar -->
+<script src="https://cf.chownowcdn.com/latest/static/integrations/ordering-modal.min.js" data-chownow-company-id="2083"></script>
 
   </body>
 </html>
